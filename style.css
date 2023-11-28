@@ -1,0 +1,41 @@
+h1 {
+    color: #00c3ff;
+    text-transform: uppercase;
+    text-align: center;
+    
+
+}
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    margin: 10px;
+    display: inline;
+}
+
+li a {
+    padding: 5px 10px;
+    margin:0;
+    border: 0px solid #f00;
+    background: #903;
+    text-decoration: none;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;      
+    border-radius: 5px;
+
+}
+li a:hover {
+    background-color: #ccc;
+    color: #000;
+    border-color: #000;
+}
+
+
+  

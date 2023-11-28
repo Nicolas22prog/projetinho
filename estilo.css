@@ -1,0 +1,33 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 110, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-flow:column;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    background: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background: green;
+    color: white;
+    padding: 15px 10px;
+    border: none;
+
+}
+button:hover{
+    background: rgb(2, 187, 2);
+    cursor: pointer
+}
+#senha {
+    size: 40px;
+}

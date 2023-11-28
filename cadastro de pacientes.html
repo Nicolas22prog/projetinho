@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro de pacientes</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+        <form action="processar-dados.php" method="POST">
+           <tr> 
+            <td>Nome e Sobrenome:
+                <input type="text" name="nome" size="40" required >
+            </td>
+           </tr>
+           <tr>
+             <td id="data">Data de nascimento:
+                <input type="date" name="nascimento" size="40" required> <br />
+             </td>
+            </tr>
+            <tr>
+              <td>Cartao do sus:
+                    <input type="text" name="sus" size="40" id="sus" required> <br />
+              </td>
+            </tr>
+            <tr>
+                <td>CPF:
+                    <input type="text" name="cpf" size="11" required > <br />
+                </td>
+            </tr>
+            <tr>
+                <td>Nome da mãe:
+                    <input type="text"  name="mae" size="40" required> <br />
+                </td>
+            </tr>
+            <tr>
+                <td>endereço completo:
+                    <input type="text" name="endereco" size="40" required> <br />
+                </td>
+            </tr>
+            <tr>
+
+            </tr>
+            <tr>
+                <td>email:
+                    <input type="email" name="email" size="40" required> <br />
+                </td>
+            </tr>
+            <tr>
+                <td>telefone:
+                    <input type="number" name="telefone" size="40" required> <br />
+                </td>
+            </tr>
+            <button type="submit" name="cadastrar" value="Cadastrar">Cadastrar</button>
+        </form>
+</body>
+</html>
